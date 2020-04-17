@@ -1,0 +1,116 @@
+
+.footer {
+    background-color:  white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer__inner {
+    display: flex;
+    margin: 70px 0 70px;
+    width: 100%;
+}
+
+.footer__left {
+    width: 34%;
+    margin: 0 15px;
+    min-height: 100px;
+}
+
+.footer__logo {
+    margin-top: 30px;
+}
+
+.footer__left__content {
+    margin-top: 22px;
+    font-size: 14px;
+    color: #28313b;
+}
+
+.footer__right {
+    width: 66%;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    min-height: 100px;
+}
+
+.footer__right__inner {
+    width: 25%;
+    min-height: 100px;  
+}
+
+.footer__right__inner p {
+    font-weight: bold;
+}
+
+.footer__right__inner li {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #28313b;
+}
+
+.footer__right__inner a:hover, .footer__right__inner .active {
+    color: #ff6422;
+}
+
+.footer__right__inner li:nth-child(1) {
+    margin-top: 30px;
+}
+
+.footer__right__inner li:nth-child(2), .footer__right__inner li:nth-child(3) {
+    margin-top: 20px;
+}
+
+.footer__right__inner p{
+    font-size: 16px;
+    color: #ff5912;
+    margin-top: 40px;
+}
+
+.pay {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pay__amex {
+    background-image: url(../images/footer_img/pay.png);
+    width: 27px;
+    height: 19px;
+}
+
+.pay__second {
+    background-image: url(../images/footer_img/pay.png);
+    width: 27px;
+    height: 19px;
+    background-position: -35px 0px;
+}
+
+.pay__visa {
+    background-image: url(../images/footer_img/pay.png);
+    width: 27px;
+    height: 19px;
+    background-position: -71px 0px;
+}
+
+.pay__master {
+    background-image: url(../images/footer_img/pay.png);
+    width: 27px;
+    height: 19px;
+    background-position: -107px 0px;
+}
+
+.pay__card{
+    background-image: url(../images/footer_img/pay.png);
+    width: 27px;
+    height: 19px;
+    background-position: -143px 0px;
+}
+      
+

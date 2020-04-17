@@ -1,0 +1,140 @@
+/* -----------------------------header__top--------------------- */
+
+header {
+    position: relative;
+    background-color: #fff;
+}
+
+.header {
+    width: 100%;
+}
+
+header::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #edeff1;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+header::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #edeff1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.header__top {
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+}
+
+.header__top__contacts {
+    width: 90%;
+    display: flex;
+    justify-content: start;
+}
+
+.mail {
+    width: 50%;
+}
+
+.tel {
+    width: 50%;
+    margin-right: 70%;
+}
+
+.header__top__social {
+    width: 9.5%;
+}
+
+.facebook {
+    width: 14px;
+    height: 11px;
+    background-image: url(../images/header_img/social_icons.png);
+    background-position: 0 0;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .twitter {
+    width: 13px;
+    height: 11px;
+    background-image: url(../images/header_img/social_icons.png);
+    float: left;
+    margin-right: 15px;
+    background-position: -28px 0;
+  }
+  
+  .google {
+    width: 12px;
+    height: 11px;
+    background-image: url(../images/header_img/social_icons.png);
+    float: left;
+    margin-right: 15px;
+    background-position: -58px 0;
+  }
+  
+  .instagram {
+    width: 12px;
+    height: 11px;
+    background-image: url(../images/header_img/social_icons.png);
+    float: left;
+    margin-right: 15px;
+    background-position: -85px 0;
+  }
+
+/* -----------------------------header__top end--------------------- */
+
+/* -----------------------------header__lower-----------------------*/
+
+  .header__lower {
+    width: 100%;
+    display: flex;
+    margin-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .header__logo {
+      margin-top: 5px;
+  }
+
+  .header__lower__nav {
+    width: 71.68%;
+  }
+
+  .header__lower__nav nav ul li {
+    display: inline-block;
+    margin-right: 42px;
+    margin-top: 15px;
+    list-style-type: none;
+  }
+
+  .header__lower__nav nav ul li:last-child {
+      margin-right: 0;
+  }
+
+  .header__lower__nav nav ul li a:hover {
+    cursor: pointer;  
+    color: #ff5912;
+  }
+
+  .header__icons__wrap {
+    margin-top: 15px;
+    display: flex;
+  }
+
+  .header__icons__wrap span:nth-child(2) {
+      margin: 0 40px;
+  }
+
+  /* -----------------------------header__lower end-----------------------*/

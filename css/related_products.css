@@ -1,0 +1,95 @@
+/* ---------------------related__products--------------- */
+
+.related__products {
+    width: 100%;
+    background-color: #f4f6f8;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.related__products__header {
+    background-color: #f4f6f8;
+    margin-top: 115px;
+}
+
+.related__products h1 span {
+    color: #ff5912;
+}
+
+.related__products p {
+    padding-top: 30px;
+}
+
+.related__products__cards {
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.card {
+    margin: 0 1.25% 0; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card > img {
+    margin: 30px 0 30px;
+}
+
+.card .price {
+    color: #ff5912;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+
+/* ---------------------related__products end--------------- */
+
+/* ---------------------letter--------------- */
+
+.letter {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 120px;
+    text-align: left;
+}
+
+.letter span {
+    display: inline-block;
+    padding: 55px 0;
+}
+
+.letter__news {
+    font-size: 18px;
+    color: #ff5912;
+    margin-left: 60px;
+}
+
+.letter__description {
+    margin-left: 30px;
+}
+
+.letter__message {
+    margin-left: 180px;
+    display: inline-block;
+}
+
+.letter__message img {
+    padding-right: 15px;
+}
+
+.letter__join {
+    margin-left: 100px;
+    width: 100px;
+    height: 50px;
+    background-color: #ff5912;
+    border: none;
+    outline: none;
+}
+
+.letter__join:hover {
+    cursor: pointer;
+}
+
+/* ---------------------letter end--------------- */

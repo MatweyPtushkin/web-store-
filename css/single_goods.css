@@ -1,0 +1,265 @@
+/* -----------------------------------goods__left-------------------------- */
+
+.single__goods {
+    width: 100%;
+    margin: 100px 0 140px 0;
+}
+
+.single__goods::after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.goods__left {
+    width: 40.42%;
+    text-align: center;
+    float: left;
+}
+
+.goods__left__big {
+    min-height: 320px;
+}
+
+.goods__left__small {
+    margin-left: 80px;
+    margin-top: 67px;
+} 
+
+.goods__left__small .active {
+    background-color: #ff5912;
+}
+
+.small__card img {
+    width: 50%;
+    height: 75%;
+}
+
+.small__card:first-child img {
+  margin-top: 11px;
+}
+
+.small__card:nth-child(2) img {
+    margin-top: 10px;
+  }
+
+  .small__card:last-child img {
+    margin-top: 7px;
+  } 
+
+.goods__left__small > div {
+    width: 94px;
+    height: 69px;
+    float: left; 
+    background-color: #f4f6f8;
+}
+
+.goods__left__small > div:nth-child(2) {
+    margin: 0 15px 0;
+}
+
+/* -----------------------------------goods__left end------------------------ */
+
+/* -----------------------------------goods__right-------------------------- */
+
+.goods__right {
+    width: 59.57%;
+    float: left;
+}
+
+.goods__right h1 {
+    margin-left: 35px;
+    font-size: 52px;
+    color: #ff5912;
+}
+
+.description {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.full__description {
+    font-size: 16px;
+}
+
+.goods__right .p1{
+    margin-top: 45px;
+}
+
+.p2, .p3 {
+    margin-top: 20px;
+}
+
+.lower__block {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.lower__block::before {
+    content: '';
+    display: block;
+    width: 83%;
+    height: 2px;
+    background-color: #edeff1;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.lower__block::after {
+    content: '';
+    display: block;
+    width: 83%;
+    height: 2px;
+    background-color: #edeff1;
+    position: absolute;
+    top: 140px;
+    left: 0;
+}
+
+.sizes {
+    margin-top: 80px;
+    width: 50%;
+    float: left;
+}
+
+.lower__block .sizes span:first-child {
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.sizes span {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.sizes .active {
+    font-size: 18px;
+    color: #ff5912;
+}
+
+.quantity {
+    width: 50%;
+    margin-top: 80px;
+    font-size: 18px;
+    display: flex;
+    position: relative;
+}
+
+.quantity::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: -72px;
+    top: 9px;
+    background-color: #edeff1;
+    transform: rotate(90deg);
+}
+
+.lower__block .quantity span {
+    display: block;
+}
+
+.lower__block .quantity span:first-child {
+    font-size: 18px;
+}
+
+.quantity__plus {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.quantity__num {
+    color: #ff5912;
+    margin-left: 20px;
+}
+
+.quantity__minus {
+    margin-left: 20px;
+    position: absolute;
+    right: 132px;
+    bottom: 2px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.price__block {
+    width: 100%;
+    color: #34404b;
+    margin-top: 100px;
+    display: flex;
+}
+
+.price__block__total > span {
+    font-size: 20px;
+}
+
+.price__block__order {
+    display: flex;
+    margin-left: 225px;
+    position: relative;
+}
+
+.price__block__order div {
+    margin-right: 35px;
+}
+
+.price__block__order div:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.price__block__order div:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+
+.price__block__order div:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+}
+
+.price__block__order div:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+}
+
+.price__block__order .order_button {
+    background-color: #ff5912;
+    border: none;
+    width: 132px;
+    height: 45px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -9px;
+    left: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+.price__block__order .order_button:hover {
+    cursor: pointer;
+}
+
+.price__block__order > div:hover {
+    cursor: pointer; 
+}
+
+/* -----------------------------------goods__right end-------------------------- */
+
+
+@media screen and (max-width: 768px) {
+    
+}
